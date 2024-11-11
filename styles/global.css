@@ -1,0 +1,126 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: Helvetica, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+}
+
+details {
+    border: none;
+    padding: 0;
+}
+
+summary {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* A partir de aquí introduce tus estilos */
+:root {
+    --accent-bg-color: #f4ede4;
+    --title-color: #000;
+    --contrast-color: #FFF;
+    --text-color: #1d1d1d;
+    --text-light-color: #696969;
+    --text-secondary-color: #1264a3;
+    --primary-color: #611f69;
+    --primary-color-dark: #4a154b;
+    --container-width: 95%;
+}
+
+body {
+    background-image: url(/images/background.png);
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    bottom: 10px;
+    width: 100vw;
+    justify-content: center;
+}
+
+.nav-characters {
+    margin: 0 auto;
+    height: 80px;
+    width: 90%;
+    background-color: #ffffff;
+    display: flex;
+    
+    border-radius: 50px;
+    border: 3px solid #545FE5;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-bts-nav {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.container-bts-nav button {
+    border: 3px solid #545FE5;
+    
+    border-radius: 50px;
+    background-color: rgb(247, 204, 253);
+    width: 57px;
+    height: 57px;
+}
+
+
+/* ----------------header----------------- */
+header{
+    height: 100vh;
+    display: flex;
+
+}
+.container-img-header{
+    display: flex;
+    margin:auto 0;
+}
+
+.container-img-header img{
+    flex: 1;
+    width: 100%;
+    padding-top: 40px;
+}
+
