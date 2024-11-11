@@ -6,8 +6,8 @@
 
 html,
 body {
-    font-family: Helvetica, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-        Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Libre Caslon Text", Helvetica,  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 h1,
@@ -67,45 +67,61 @@ a {
 }
 
 body {
-    background-image: url(/images/background.png);
+    background-image: url(/images/backgro.png);
 }
 
+/* ----------------NAV----------------- */
 nav {
     display: flex;
     position: fixed;
     bottom: 10px;
-    width: 100vw;
+    width: 100%;
     justify-content: center;
 }
 
 .nav-characters {
-    margin: 0 auto;
     height: 80px;
-    width: 90%;
-    background-color: #ffffff;
+    width: 70%; 
     display: flex;
-    
-    border-radius: 50px;
-    border: 3px solid #545FE5;
+    border-radius: 6px;
+    border:none;
     align-items: center;
     justify-content: center;
+}
+
+.container-background-nav{
+    position: absolute;
+    transform: rotate(90deg);
+    z-index: 0; 
+    flex:1;
+}
+
+.background-nav{
+width: 150px;
 }
 
 .container-bts-nav {
     display: flex;
     gap: 15px;
     justify-content: center;
+    position: relative;
 }
 
 .container-bts-nav button {
-    border: 3px solid #545FE5;
-    
+    border: 4px solid  rgb(110, 124, 97);
     border-radius: 50px;
-    background-color: rgb(247, 204, 253);
-    width: 57px;
-    height: 57px;
+    background-color:  rgb(147, 159, 135);
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.container-bts-nav img{
+    width: 68px;
+    
+}
 
 /* ----------------header----------------- */
 header{
@@ -116,11 +132,50 @@ header{
 .container-img-header{
     display: flex;
     margin:auto 0;
+    justify-content: center;
 }
 
 .container-img-header img{
-    flex: 1;
-    width: 100%;
-    padding-top: 40px;
+    width: 70%;
 }
+
+/* ----------------seccion one ----------------- */
+
+.pag-one{
+    height: 90vh;
+    width: 100%;
+}
+
+.contain-general-pag-one{
+    width: 100%;
+    display: flex;
+    z-index: 0;
+    justify-content: end;
+}
+
+.contain-img-pag-one{
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100vh;
+}
+
+.contain-img-pag-one img{
+width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position:left;
+}
+
+.contain-text{
+    position: relative;
+    color: #FFF;
+    width: 50%;
+    padding: 60px 10px 0px 0px;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    z-index: -1;
+    font-size: 14px;
+    line-height: 20px;
+}
+
 

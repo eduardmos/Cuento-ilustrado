@@ -1,18 +1,16 @@
 /* Media query para dispositivos tablet (mayores a 480px y hasta 1023px) */
 @media (min-width: 481px) {
 nav{
-    position: fixed; 
-    top: 0; 
-    right: 10px; 
-    height: 100vh; 
-    width: 90px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    top: 0;
+    right: 10px;
+    flex-direction: column; /* Barra vertical */
+    justify-content: center; /* Centrar el contenido */
+    width: 80px
 }
 
 .nav-characters{
-    height: 90%;
+    height: 50%;
+    width: 100%;
 }
 
 .container-bts-nav{
@@ -24,16 +22,29 @@ nav{
 }
 
 .container-bts-nav button{
-    width: 57px;
-    height: 57px;
+    width: 70px;
+    height: 70px;
     
 }
 
+.container-background-nav{
+    transform: rotate(0deg);
+}
+
+/* ----------------seccion one ----------------- */
+.contain-text{
+    padding: 200px 120px 0px 0px;
+}
 }
 
 /* Media query para dispositivos de escritorio (mayores a 1024px y hasta 1439px) */
-@media (min-width: 1024px) {
 
+
+@media (min-width: 1024px) {
+.contain-text{
+    font-size: 22px;
+    line-height: 28px;
+}
 }
 
 /* Media query para dispositivos de escritorio XXL (mayores a 1440px) */
