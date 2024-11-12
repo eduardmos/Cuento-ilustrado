@@ -136,7 +136,7 @@ header {
 
 .container-img-header {
     width: 100%;
-    height: 100%; 
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -220,9 +220,9 @@ header {
     color: #012e3b;
 }
 
-/* ----------------seccion three----------------- */ 
+/* ----------------seccion three----------------- */
 
-.container-general-section-three{
+.container-general-section-three {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -231,14 +231,14 @@ header {
     z-index: -1;
 }
 
-.container-img-section-three{
+.container-img-section-three {
     flex: 1;
     position: relative;
     overflow: hidden;
     height: 100vh;
 }
 
-.container-img-section-three img{
+.container-img-section-three img {
     width: 100vh;
     margin-left: -300px;
     padding-top: 120px;
@@ -248,43 +248,59 @@ header {
     flex: 1;
     position: absolute;
     width: 50%;
-    top: 0; 
+    top: 0;
     right: 0;
     padding: 70px 10px 0px 10px;
     color: var(--text-color);
 }
-/* .contain-general-pag-two{
+
+/* ----------------seccion four----------------- */
+.pag-four {
+    height: 70vh;
+
+}
+
+.container-general-section-four {
     display: flex;
     flex-direction: column;
-    width: 90%;
-    margin: 0 auto;
-
-}
-.contain-title-pag-two{
-    padding-top: 40px;
-    order:1
+    width: 100%;
+    position: relative;
+    z-index: -1;
 }
 
-.contain-title-pag-two h1{
-    font-size: 120px;
-    color: #043a4ad2;
-    line-height: 110px;
+.container-img-section-four {
+    flex: 1;
+    overflow: hidden;
 }
 
-.contain-img-pag-two{
+.container-img-section-four img {
+    width: 100%;
+}
+
+.container-text-section-four {
+    flex: 1;
+    text-align: center;
+    padding: 40px;
+    color: var(--text-color);
+}
+/* ----------------seccion five----------------- */
+
+.pag-five {
+    height: 80vh;
     display: flex;
-    width: 100%;
-    margin-top: -50px;
-    order:2;
 }
 
-.contain-img-pag-two img{
+.container-general-section-five {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-img-section-five img {
     width: 100%;
 }
 
-.contain-text-page-two{
-    margin-top: -40px;
-    padding: 0px 30px 30px 30px;
-    color: #012e3b ;
-    order:3;
-} */
+.container-text-section-five {
+    text-align: center;
+    padding: 20px;
+    color: var(--text-color);
+}
