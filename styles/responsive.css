@@ -1,54 +1,92 @@
 /* Media query para dispositivos tablet (mayores a 480px y hasta 1023px) */
 @media (min-width: 481px) {
-nav{
-    top: 0;
-    right: 10px;
-    flex-direction: column; /* Barra vertical */
-    justify-content: center; /* Centrar el contenido */
-    width: 80px
-}
+    nav {
+        top: 0;
+        right: 10px;
+        flex-direction: column;
+        justify-content: center;
+        width: 80px
+    }
 
-.nav-characters{
-    height: 50%;
-    width: 100%;
-}
+    .nav-characters {
+        height: 50%;
+        width: 100%;
+    }
 
-.container-bts-nav{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 10px ;
-    align-items: center;
-}
+    .container-bts-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+        align-items: center;
+    }
 
-.container-bts-nav button{
-    width: 70px;
-    height: 70px;
+    .container-bts-nav button {
+        width: 70px;
+        height: 70px;
+    }
+
+    .container-background-nav {
+        transform: rotate(0deg);
+    }
+
+    /* ----------------seccion one ----------------- */
+    .contain-text-pag-one {
+        padding: 130px 100px 0px 0px;
+    }
     
-}
-
-.container-background-nav{
-    transform: rotate(0deg);
-}
-
-/* ----------------seccion one ----------------- */
-.contain-text{
-    padding: 200px 120px 0px 0px;
-}
-}
 
 /* Media query para dispositivos de escritorio (mayores a 1024px y hasta 1439px) */
 
 
 @media (min-width: 1024px) {
-.contain-text{
-    font-size: 22px;
-    line-height: 28px;
+
+/* ----------------header ----------------- */
+
+
+    .contain-text {
+        font-size: 22px;
+        line-height: 28px;
+    }
+/* ----------------seccion one ----------------- */
+    .contain-text-pag-one {
+        padding: 130px 100px 0px 0px;
+    }
+/* ----------------seccion two ----------------- */
+    .contain-general-pag-two {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 10px;
+        margin: 0 auto;
+        align-items: center;
+        padding: 70px 0px;
+    }
+
+    .contain-img-pag-two {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding-top: 80px;
+    }
+
+    .img-pag-two{
+        width: 100%;
+
+    }
+
+    .contain-title-pag-two {
+        margin-bottom: 60px;
+    }
+
+    .contain-text-page-two {
+        padding: 0px;
+    }
+
 }
-}
+
+
 
 /* Media query para dispositivos de escritorio XXL (mayores a 1440px) */
-@media (min-width: 1440px) {
-
-}
-
+@media (min-width: 1440px) {}

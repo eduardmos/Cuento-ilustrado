@@ -6,7 +6,7 @@
 
 html,
 body {
-    font-family: "Libre Caslon Text", Helvetica,  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    font-family: "Libre Caslon Text", Helvetica, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
         sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
@@ -77,27 +77,29 @@ nav {
     bottom: 10px;
     width: 100%;
     justify-content: center;
+
 }
 
 .nav-characters {
     height: 80px;
-    width: 70%; 
+    width: 70%;
     display: flex;
     border-radius: 6px;
-    border:none;
+    border: none;
     align-items: center;
     justify-content: center;
+
 }
 
-.container-background-nav{
+.container-background-nav {
     position: absolute;
     transform: rotate(90deg);
-    z-index: 0; 
-    flex:1;
+    z-index: 0;
+    flex: 1;
 }
 
-.background-nav{
-width: 150px;
+.background-nav {
+    width: 150px;
 }
 
 .container-bts-nav {
@@ -105,12 +107,13 @@ width: 150px;
     gap: 15px;
     justify-content: center;
     position: relative;
+    z-index: 3;
 }
 
 .container-bts-nav button {
-    border: 4px solid  rgb(110, 124, 97);
+    border: 4px solid rgb(110, 124, 97);
     border-radius: 50px;
-    background-color:  rgb(147, 159, 135);
+    background-color: rgb(147, 159, 135);
     width: 70px;
     height: 70px;
     display: flex;
@@ -118,64 +121,140 @@ width: 150px;
     justify-content: center;
 }
 
-.container-bts-nav img{
+.container-bts-nav img {
     width: 68px;
-    
+
 }
 
 /* ----------------header----------------- */
-header{
+header {
+    overflow: hidden;
     height: 100vh;
-    display: flex;
+    width: 100%;
 
 }
-.container-img-header{
+
+.container-img-header {
+    width: 100%;
+    height: 100%; 
     display: flex;
-    margin:auto 0;
     justify-content: center;
+    align-items: center;
 }
 
-.container-img-header img{
-    width: 70%;
+.container-img-header img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
 }
 
 /* ----------------seccion one ----------------- */
 
-.pag-one{
-    height: 90vh;
+.pag-one {
     width: 100%;
 }
 
-.contain-general-pag-one{
+.contain-general-pag-one {
     width: 100%;
     display: flex;
-    z-index: 0;
     justify-content: end;
 }
 
-.contain-img-pag-one{
-    width: 100%;
-    z-index: -1;
-    position: absolute;
-    height: 100vh;
-}
-
-.contain-img-pag-one img{
-width: 100%;
-    height: 100vh;
+.contain-img-pag-one {
+    flex: 1;
     object-fit: cover;
-    object-position:left;
+    z-index: -1;
 }
 
-.contain-text{
+.contain-img-pag-one img {
+    width: 100%;
     position: relative;
+
+}
+
+.contain-text-pag-one {
+    position: absolute;
     color: #FFF;
     width: 50%;
-    padding: 60px 10px 0px 0px;
+    padding: 40px 10px 0px 0px;
     text-shadow: 2px 2px 4px rgb(0, 0, 0);
-    z-index: -1;
     font-size: 14px;
     line-height: 20px;
+    z-index: -1;
+}
+
+/* ----------------seccion two ----------------- */
+
+.contain-general-pag-two {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contain-img-pag-two img {
+    width: 100%;
+}
+
+.contain-title-pag-two {
+    order: 1;
+}
+
+.contain-img-pag-two {
+    order: 2;
+}
+
+.contain-text-page-two {
+    order: 3;
+}
+
+.contain-title-pag-two h1 {
+    font-size: 120px;
+    color: #043a4ad2;
+    line-height: 110px;
+}
+
+.contain-text-page-two {
+    margin-top: -40px;
+    padding: 0px 30px 30px 30px;
+    color: #012e3b;
 }
 
 
+
+/* .contain-general-pag-two{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+
+}
+.contain-title-pag-two{
+    padding-top: 40px;
+    order:1
+}
+
+.contain-title-pag-two h1{
+    font-size: 120px;
+    color: #043a4ad2;
+    line-height: 110px;
+}
+
+.contain-img-pag-two{
+    display: flex;
+    width: 100%;
+    margin-top: -50px;
+    order:2;
+}
+
+.contain-img-pag-two img{
+    width: 100%;
+}
+
+.contain-text-page-two{
+    margin-top: -40px;
+    padding: 0px 30px 30px 30px;
+    color: #012e3b ;
+    order:3;
+} */
