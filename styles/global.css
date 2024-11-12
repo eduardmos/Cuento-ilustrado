@@ -58,7 +58,7 @@ a {
     --accent-bg-color: #f4ede4;
     --title-color: #000;
     --contrast-color: #FFF;
-    --text-color: #1d1d1d;
+    --text-color: #012e3b;
     --text-light-color: #696969;
     --text-secondary-color: #1264a3;
     --primary-color: #611f69;
@@ -170,7 +170,6 @@ header {
 .contain-img-pag-one img {
     width: 100%;
     position: relative;
-
 }
 
 .contain-text-pag-one {
@@ -210,7 +209,7 @@ header {
 }
 
 .contain-title-pag-two h1 {
-    font-size: 120px;
+    font-size: 100px;
     color: #043a4ad2;
     line-height: 110px;
 }
@@ -221,8 +220,39 @@ header {
     color: #012e3b;
 }
 
+/* ----------------seccion three----------------- */ 
 
+.container-general-section-three{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: -1;
+}
 
+.container-img-section-three{
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.container-img-section-three img{
+    width: 100vh;
+    margin-left: -300px;
+    padding-top: 120px;
+}
+
+.container-text-section-three {
+    flex: 1;
+    position: absolute;
+    width: 50%;
+    top: 0; 
+    right: 0;
+    padding: 70px 10px 0px 10px;
+    color: var(--text-color);
+}
 /* .contain-general-pag-two{
     display: flex;
     flex-direction: column;
