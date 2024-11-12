@@ -111,14 +111,35 @@ nav {
 }
 
 .container-bts-nav button {
-    border: 4px solid rgb(110, 124, 97);
+    border: 4px solid rgb(98, 115, 81);
     border-radius: 50px;
-    background-color: rgb(147, 159, 135);
+    background: radial-gradient(circle, rgb(147, 159, 135) 0%, rgb(106, 121, 92) 100%);
     width: 70px;
     height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
+    justify-content: center;
+    animation: giroAleatorio 6s infinite ease-in-out;
+    
+}
+
+@keyframes giroAleatorio {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(10deg);
+    }
+    50% {
+        transform: rotate(-10deg);
+    }
+    75% {
+        transform: rotate(5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
 }
 
 .container-bts-nav img {
