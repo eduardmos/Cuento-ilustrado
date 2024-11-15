@@ -105,7 +105,7 @@
     }
 
     .contain-text-page-two {
-        padding: 0px;
+        padding: 0px ;
         font-size: 20px;
     }
 
@@ -131,7 +131,7 @@
         line-height: 28px;
         
     }
-
+ /* ----------------seccion five ----------------- */
     .pag-five{
         height: 100vh;
         margin-top: 150px;
@@ -139,7 +139,7 @@
 
     .container-text-section-five {
         font-size: 18px;
-        padding: 80px;
+        padding: 0px 200px 100px 200px;
     }
 }
 
@@ -189,6 +189,10 @@
         font-size: 30px;
         line-height: 38px;
         
+    }
+ /* ----------------seccion five ----------------- */
+    .container-text-section-five {
+        font-size: 30px;
     }
 }
 
