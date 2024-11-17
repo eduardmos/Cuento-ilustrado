@@ -30,7 +30,6 @@
         transform: rotate(0deg);
     }
 
-
     /* ----------------seccion one ----------------- */
     .contain-text-pag-one p {
         padding: 60px 100px 0px 0px;
@@ -54,10 +53,42 @@
         padding: 200px 90px 0px 10px;
         font-size: 18px;
     }
+
     /* ----------------seccion five ----------------- */
-    .pag-five{
+    .pag-five {
         height: 100vh;
         margin-top: 50px;
+    }
+/* ---------------- SUBPAGES-HEADER ------------------- */
+
+.title {
+font-size: 200px;
+}
+/* ---------------- SUBPAGES- SECTION-IMG ------------------- */
+.contain-img-character-subpages {
+    margin-top: -180px;}
+
+    /* ---------------- SUBPAGES- SECTION-SKILLS ------------------- */
+    .contain-general-skills {
+        padding: 20px 150px;
+    }
+ /* ---------------- SUBPAGES-ARTICLE-DESCRIPTION ------------------- */
+article {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 78px;
+}
+
+.contain-description-character{
+    font-size: 22px;
+    padding: 20px 0px 60px;
+}
+
+    /* ----------------SUBPAGES-FOOTER----------------- */
+
+    .contain-text-footer {
+        font-size: 24px;
+        padding: 50px;
     }
 }
 
@@ -105,7 +136,7 @@
     }
 
     .contain-text-page-two {
-        padding: 0px ;
+        padding: 0px;
         font-size: 20px;
     }
 
@@ -117,22 +148,24 @@
         position: relative;
         padding: 0px 100px 0px 0px;
     }
-   /* ----------------seccion four ----------------- */
+
+    /* ----------------seccion four ----------------- */
     .container-img-section-four {
         position: relative;
     }
 
-    .container-text-section-four{
+    .container-text-section-four {
         position: absolute;
         color: var(--contrast-color);
         padding: 0px 200px;
         font-size: 18px;
-        top: 50%; 
+        top: 50%;
         line-height: 28px;
-        
+
     }
- /* ----------------seccion five ----------------- */
-    .pag-five{
+
+    /* ----------------seccion five ----------------- */
+    .pag-five {
         height: 100vh;
         margin-top: 150px;
     }
@@ -141,8 +174,21 @@
         font-size: 18px;
         padding: 0px 200px 100px 200px;
     }
+
+
+.contain-general-footer {
+    
+    align-items: center;
+    justify-content: center;
 }
 
+.contain-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+}
 /* Media query para dispositivos de escritorio XXL (mayores a 1440px) */
 @media (min-width: 1440px) {
 
@@ -185,14 +231,14 @@
     }
 
     /* ----------------seccion four ----------------- */
-    .container-text-section-four{
+    .container-text-section-four {
         font-size: 30px;
         line-height: 38px;
-        
+
     }
- /* ----------------seccion five ----------------- */
+
+    /* ----------------seccion five ----------------- */
     .container-text-section-five {
         font-size: 30px;
     }
 }
-
