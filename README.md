@@ -1,7 +1,7 @@
 # **Marten y el Guardián**
 
 ## **Descripción**
-Este proyecto cuenta la historia de Marten y su compañero Tanuk en una aventura llena de desafíos y descubrimientos. Es una página interactiva y responsiva, diseñada para adaptarse perfectamente a dispositivos móviles y brindar una experiencia visual cautivadora.
+Este proyecto cuenta la historia de Marten y su compañero Tanuk en una aventura llena de desafíos y descubrimientos. Es una cuento interactivo y responsivo, diseñado para adaptarse perfectamente a dispositivos móviles y brindar una experiencia visual cautivadora.
 
 ---
 
